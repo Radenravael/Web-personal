@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-size: 14px;
+            color: #555;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>About</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="menu_btn-style ">
+            <button onclick="closeNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <a class="" href="index.html">
+              Home
+            </a>
+            <a class="active" href="about.html">
+              About
+            </a>
+            <a class="" href="portfolio.html">
+              Portofolio
+            </a>
+            <a class="" href="team.html">
+              Social Media
+            </a>
+          </div>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Portofolio
+          </span>
+        </a>
+        <a href="https://wa.me/6281280004813" class="call_btn">
+          Call Us Now
+        </a>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="img-box col-lg-8 col-md-7">
+          <img src="images/rava1.jpg" alt="" />
+        </div>
+        <div class="detail-box detail_box_common col-lg-4 col-md-5 text_center">
+          <div class="heading_container heading_center">
+            <h2>
+              About Us
+            </h2>
+          </div>
+          <p>
+           Portofolio ini merupakan langkah awal saya sebagai mahasiswa semester 1 dalam memperkenalkan diri dan menunjukkan minat serta potensi yang saya miliki. Saat ini, saya sedang menempuh pendidikan di program studi Manajemen Pemasaran. Meski masih berada di awal perjalanan akademik, saya telah mulai mengembangkan keterampilan dasar melalui tugas-tugas perkuliahan, kegiatan organisasi, dan eksplorasi mandiri. Dalam portofolio ini, Anda akan menemukan beberapa contoh karya awal saya, serta bukti partisipasi saya dalam kegiatan pengembangan diri. Dengan semangat belajar yang tinggi, saya berharap dapat terus mengembangkan kemampuan saya dan berkontribusi secara positif di masa depan.
+          </p>
+          <a href="">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+   <!-- contact section -->
+
+  <section class="contact_section ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 map_container">
+          <div class="map">
+            <div id="googleMap"></div>
+          </div>
+        </div>
+        <div class="col-md-4 detail-box detail_box_common">
+          <div>
+            <div class="heading_container">
+              <h2>
+                Get In Touch
+              </h2>
+            </div>
+            <div class="info_contact">
+              <div class="contact_link_box">
+                <a href="https://maps.app.goo.gl/XwydWWZCisdqm81w8">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Location
+                  </span>
+                </a>
+                <a href="https://wa.me/6281280004813">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call 
+                  </span>
+                </a>
+                <a href="mailto:raden.21424026@mahasiswa.unikom.ac.id">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    Email
+                  </span>
+                </a>
+              </div>
+              <div class="info_social">
+                <a href="https://www.instagram.com/ravaell.alvia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- form -->
+  <div class="container">
+    <h2>Formulir Kritik dan Saran</h2>
+    <p>Terima kasih telah mengunjungi situs kami. Mohon luangkan waktu untuk memberikan kritik dan saran yang membangun.</p>
+
+    <form action="submit_form.php" method="POST">
+        
+        <div class="form-group">
+            <label for="name">Nama (Opsional):</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email (Opsional):</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+            <label for="satisfaction">Seberapa puas Anda dengan pengalaman menggunakan website ini?</label>
+            <select id="satisfaction" name="satisfaction">
+                <option value="very_satisfied">Sangat Puas</option>
+                <option value="satisfied">Puas</option>
+                <option value="neutral">Cukup Puas</option>
+                <option value="dissatisfied">Tidak Puas</option>
+                <option value="very_dissatisfied">Sangat Tidak Puas</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="positive_feedback">Apa yang Anda sukai dari website ini?</label>
+            <textarea id="positive_feedback" name="positive_feedback" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="improvement_suggestion">Apa yang perlu diperbaiki atau ditingkatkan di website ini?</label>
+            <textarea id="improvement_suggestion" name="improvement_suggestion" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="technical_issue">Apakah Anda menemukan masalah teknis saat menggunakan website?</label>
+            <select id="technical_issue" name="technical_issue">
+                <option value="yes">Ya</option>
+                <option value="no">Tidak</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="additional_comments">Saran atau ide lainnya untuk meningkatkan website ini:</label>
+            <textarea id="additional_comments" name="additional_comments" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="follow_up">Apakah Anda ingin dihubungi untuk menindaklanjuti masukan Anda?</label>
+            <select id="follow_up" name="follow_up">
+                <option value="yes">Ya</option>
+                <option value="no">Tidak</option>
+            </select>
+        </div>
+
+        <button type="submit">Kirim Masukan</button>
+    </form>
+</div>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6">
+        </div>
+        <div class="col-xl-6">
+          <div class="link_box">
+            <a class="" href="index.html">
+              Home
+            </a>
+            <a class="" href="about.html">
+              About
+            </a>
+            <a class="" href="portfolio.html">
+              Portofolio
+            </a>
+            <a class="" href="team.html">
+              Social Media
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
